@@ -1,7 +1,7 @@
 {
-  "name": "@akumzy/socket.io-stream",
+  "name": "@ryanaltair/socket.io-stream",
   "version": "0.0.6",
-  "description": "Upload file as stream with socket.io",
+  "description": "Upload file as stream with socket.io, fork from @Akumzy/socket.io-stream",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest --detectOpenHandles",
@@ -9,8 +9,8 @@
     "build": "tsc -p ./tsconfig.json"
   },
   "author": {
-    "name": "Akuma Isaac Akuma",
-    "email": "akumaisaacakuma@gmail.com"
+    "name": "ryanaltair",
+    "email": "al_tair@live.com"
   },
   "license": "MIT",
   "devDependencies": {
@@ -39,12 +39,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Akumzy/socket.io-stream.git"
+    "url": "git+https://github.com/ryanaltair/socket.io-stream.git"
   },
   "bugs": {
-    "url": "https://github.com/Akumzy/socket.io-stream/issues"
+    "url": "https://github.com/ryanaltair/socket.io-stream/issues"
   },
-  "homepage": "https://github.com/Akumzy/socket.io-stream#readme",
+  "homepage": "https://github.com/ryanaltair/socket.io-stream#readme",
   "dependencies": {
     "date-fns": "^1.30.1",
     "rxjs": "^6.5.0"

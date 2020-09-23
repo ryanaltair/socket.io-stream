@@ -4,20 +4,20 @@ socket.io based file stream
 
 This package has three components
 
-- ### Client:
+### Client:
 
   Only works in Nodejs environment like in ElectronJs.
 
-- ### Web:
+### Web:
 
-  Web is for browsers baseds app the component uses FileReader api to read file blob.
+  Web is for browsers based app the component uses FileReader api to read file blob.
 
-- ### Server:
+### Server:
   This component handlers all the request from both `Web` and `Client`
 
 ```js
 //Client
-import { Client } from '@akumzy/socket.io-stream'
+import { Client } from '@ryanaltair/socket.io-stream'
 
 const client = new Client(socket, {
   filepath: '/path/to/file/music.mp3',
@@ -78,7 +78,7 @@ function onChange(inputElement) {
 
 ```js
 //Server
-import { Server } from '@akumzy/socket.io-stream'
+import { Server } from '@ryanaltair/socket.io-stream'
 import { appendFile } from 'fs'
 const io = require('socket.io')(8090)
 
@@ -111,4 +111,4 @@ io.on('connection', socket => {
 })
 ```
 
-Please check the <a href="https://github.com/Akumzy/socket.io-stream/tree/master/example">example </a> folder for clue on how to use package until I'm able to document this package well
+Please check the <a href="https://github.com/ryanaltair/socket.io-stream/tree/master/example">example </a> folder for clue on how to use package until I'm able to document this package well
