@@ -1,8 +1,8 @@
 import uuid from './uuid'
-import addMinutes from 'date-fns/add_minutes'
-import isAfter from 'date-fns/is_after'
+import addMinutes from 'date-fns/addMinutes'
+import isAfter from 'date-fns/isAfter'
 import { Subject } from 'rxjs'
-import differenceInMinutes from 'date-fns/difference_in_minutes'
+import differenceInMinutes from 'date-fns/differenceInMinutes'
 
 interface UploadRecord {
   uploadedChunks: number

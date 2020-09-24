@@ -1,7 +1,6 @@
 import { EventEmitter } from 'events'
 import { createReadStream, existsSync, statSync, readFileSync } from 'fs'
-import addSeconds from 'date-fns/add_seconds'
-
+import addSeconds from 'date-fns/addSeconds'
 interface ClientOptions {
   filepath: string
   data?: any

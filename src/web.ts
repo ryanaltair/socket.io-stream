@@ -1,4 +1,4 @@
-import addSeconds from 'date-fns/add_seconds'
+import addSeconds from 'date-fns/addSeconds'
 type cb = (...data: any) => void
 interface options {
   file: File
