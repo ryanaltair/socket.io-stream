@@ -91,7 +91,7 @@ io.on('connection', socket => {
       ready()
       stream.subscribe({
         next({ buffer, flag }) {
-          appendFile(data.name, buffer, {
+          appendFileSync(data.name, buffer, {
             encoding: 'binary',
             flag
           })
@@ -110,5 +110,3 @@ io.on('connection', socket => {
   })
 })
 ```
-
-Please check the <a href="https://github.com/ryanaltair/socket.io-stream/tree/master/example">example </a> folder for clue on how to use package until I'm able to document this package well
