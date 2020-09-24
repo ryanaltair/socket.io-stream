@@ -1,6 +1,6 @@
 {
   "name": "@ryanaltair/socket.io-stream",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Upload file as stream with socket.io, fork from @Akumzy/socket.io-stream",
   "main": "dist/index.js",
   "scripts": {
