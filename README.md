@@ -79,7 +79,7 @@ function onChange(inputElement) {
 ```js
 //Server
 import { Server } from '@ryanaltair/socket.io-stream'
-import { appendFile } from 'fs'
+import { appendFileSync } from 'fs'
 const io = require('socket.io')(8090)
 
 io.on('connection', socket => {
