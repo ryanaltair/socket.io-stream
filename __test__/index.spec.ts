@@ -60,7 +60,7 @@ describe('Upload example', () => {
   test('Upload a file', done => {
     const options = {
       filepath:
-        'C:\\Users\\akuma\\hola\\projects\\socket.io-stream\\package.json',
+        './package.json',
       data: { name: 'package.json' }
     }
 
